@@ -20,7 +20,7 @@ mongoose
 app.use(express.json())
 const allowedOrigins = [
   "http://localhost:5173",
-  'https://api.newsdomain.chickenkiller.com'
+  'https://newsdomain.chickenkiller.com'
 ];
 app.use(cors({ origin: allowedOrigins }));
 
